@@ -19,3 +19,9 @@ C:\Google Drive\School\Project Management\SWE4663_GroupProj\PMCS\PMCS\obj\Debug\
 C:\Users\dan\Source\Repos\SweProj\PMCS\bin\Debug\PMCS.exe.config
 C:\Users\dan\Source\Repos\SweProj\PMCS\obj\Debug\PMCS.exe
 C:\Users\dan\Source\Repos\SweProj\PMCS\obj\Debug\PMCS.pdb
+C:\Users\dan\Source\Repos\SweProj\PMCS\bin\Debug\PMCS.exe
+C:\Users\dan\Source\Repos\SweProj\PMCS\bin\Debug\PMCS.pdb
+C:\Users\dan\Source\Repos\SweProj\PMCS\obj\Debug\PMCS.csprojResolveAssemblyReference.cache
+C:\Users\dan\Source\Repos\SweProj\PMCS\obj\Debug\PMCS.Form1.resources
+C:\Users\dan\Source\Repos\SweProj\PMCS\obj\Debug\PMCS.Properties.Resources.resources
+C:\Users\dan\Source\Repos\SweProj\PMCS\obj\Debug\PMCS.csproj.GenerateResource.Cache
