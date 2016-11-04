@@ -28,107 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btUpdate = new System.Windows.Forms.Button();
-            this.pnlRequirment = new System.Windows.Forms.Panel();
-            this.c = new System.Windows.Forms.Label();
-            this.lblDescription = new System.Windows.Forms.Label();
+            System.Windows.Forms.ListViewItem listViewItem1 = new System.Windows.Forms.ListViewItem("Task 1");
             this.btnClose = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.lbEstMisc = new System.Windows.Forms.Label();
-            this.lbEstAn = new System.Windows.Forms.Label();
-            this.lbEstImp = new System.Windows.Forms.Label();
-            this.lbEstDes = new System.Windows.Forms.Label();
-            this.lbEstTest = new System.Windows.Forms.Label();
-            this.lbEstMan = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.btUpdate = new System.Windows.Forms.Button();
+            this.listView1 = new System.Windows.Forms.ListView();
+            this.colTask = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colType = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colDesc = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colApp = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colEst = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.colRem = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.label1 = new System.Windows.Forms.Label();
-            this.lbManTotal = new System.Windows.Forms.Label();
-            this.lbTestTotal = new System.Windows.Forms.Label();
-            this.lbDesTotal = new System.Windows.Forms.Label();
-            this.lbImpTotal = new System.Windows.Forms.Label();
-            this.lbAnaTotal = new System.Windows.Forms.Label();
-            this.lbMiscTotal = new System.Windows.Forms.Label();
-            this.tbManEff = new System.Windows.Forms.TextBox();
-            this.tbTestEff = new System.Windows.Forms.TextBox();
-            this.tbDesEff = new System.Windows.Forms.TextBox();
-            this.tbImpEff = new System.Windows.Forms.TextBox();
-            this.tbAnaEff = new System.Windows.Forms.TextBox();
-            this.tbMiscEff = new System.Windows.Forms.TextBox();
-            this.pnlRequirment.SuspendLayout();
+            this.btSelectTask = new System.Windows.Forms.Button();
+            this.btClose = new System.Windows.Forms.Button();
+            this.btNewTask = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            // 
-            // btUpdate
-            // 
-            this.btUpdate.Location = new System.Drawing.Point(101, 202);
-            this.btUpdate.Name = "btUpdate";
-            this.btUpdate.Size = new System.Drawing.Size(75, 23);
-            this.btUpdate.TabIndex = 17;
-            this.btUpdate.Text = "Update";
-            this.btUpdate.UseVisualStyleBackColor = true;
-            this.btUpdate.Click += new System.EventHandler(this.btUpdate_Click);
-            // 
-            // pnlRequirment
-            // 
-            this.pnlRequirment.Controls.Add(this.tbManEff);
-            this.pnlRequirment.Controls.Add(this.tbTestEff);
-            this.pnlRequirment.Controls.Add(this.tbDesEff);
-            this.pnlRequirment.Controls.Add(this.tbImpEff);
-            this.pnlRequirment.Controls.Add(this.tbAnaEff);
-            this.pnlRequirment.Controls.Add(this.tbMiscEff);
-            this.pnlRequirment.Controls.Add(this.lbManTotal);
-            this.pnlRequirment.Controls.Add(this.lbTestTotal);
-            this.pnlRequirment.Controls.Add(this.lbDesTotal);
-            this.pnlRequirment.Controls.Add(this.lbImpTotal);
-            this.pnlRequirment.Controls.Add(this.lbAnaTotal);
-            this.pnlRequirment.Controls.Add(this.lbMiscTotal);
-            this.pnlRequirment.Controls.Add(this.label1);
-            this.pnlRequirment.Controls.Add(this.label8);
-            this.pnlRequirment.Controls.Add(this.btUpdate);
-            this.pnlRequirment.Controls.Add(this.lbEstMan);
-            this.pnlRequirment.Controls.Add(this.lbEstTest);
-            this.pnlRequirment.Controls.Add(this.lbEstDes);
-            this.pnlRequirment.Controls.Add(this.lbEstImp);
-            this.pnlRequirment.Controls.Add(this.lbEstAn);
-            this.pnlRequirment.Controls.Add(this.lbEstMisc);
-            this.pnlRequirment.Controls.Add(this.label7);
-            this.pnlRequirment.Controls.Add(this.label6);
-            this.pnlRequirment.Controls.Add(this.label5);
-            this.pnlRequirment.Controls.Add(this.label4);
-            this.pnlRequirment.Controls.Add(this.label3);
-            this.pnlRequirment.Controls.Add(this.label2);
-            this.pnlRequirment.Controls.Add(this.c);
-            this.pnlRequirment.Controls.Add(this.lblDescription);
-            this.pnlRequirment.Location = new System.Drawing.Point(8, 8);
-            this.pnlRequirment.Name = "pnlRequirment";
-            this.pnlRequirment.Size = new System.Drawing.Size(419, 241);
-            this.pnlRequirment.TabIndex = 15;
-            // 
-            // c
-            // 
-            this.c.AutoSize = true;
-            this.c.Location = new System.Drawing.Point(318, 3);
-            this.c.Name = "c";
-            this.c.Size = new System.Drawing.Size(81, 13);
-            this.c.TabIndex = 10;
-            this.c.Text = "Estimated Effort";
-            // 
-            // lblDescription
-            // 
-            this.lblDescription.AutoSize = true;
-            this.lblDescription.Location = new System.Drawing.Point(9, 3);
-            this.lblDescription.Name = "lblDescription";
-            this.lblDescription.Size = new System.Drawing.Size(31, 13);
-            this.lblDescription.TabIndex = 7;
-            this.lblDescription.Text = "Task";
             // 
             // btnClose
             // 
-            this.btnClose.Location = new System.Drawing.Point(352, 255);
+            this.btnClose.Location = new System.Drawing.Point(347, 365);
             this.btnClose.Name = "btnClose";
             this.btnClose.Size = new System.Drawing.Size(75, 23);
             this.btnClose.TabIndex = 18;
@@ -136,281 +54,140 @@
             this.btnClose.UseVisualStyleBackColor = true;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
             // 
-            // label2
+            // btUpdate
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(9, 35);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 13);
-            this.label2.TabIndex = 11;
-            this.label2.Text = "Miscellaneous";
+            this.btUpdate.Location = new System.Drawing.Point(255, 365);
+            this.btUpdate.Name = "btUpdate";
+            this.btUpdate.Size = new System.Drawing.Size(75, 23);
+            this.btUpdate.TabIndex = 17;
+            this.btUpdate.Text = "Update";
+            this.btUpdate.UseVisualStyleBackColor = true;
+            this.btUpdate.Click += new System.EventHandler(this.btUpdate_Click);
             // 
-            // label3
+            // listView1
             // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(9, 65);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(45, 13);
-            this.label3.TabIndex = 12;
-            this.label3.Text = "Analysis";
+            this.listView1.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
+            this.colTask,
+            this.colType,
+            this.colDesc,
+            this.colApp,
+            this.colEst,
+            this.colRem});
+            this.listView1.Items.AddRange(new System.Windows.Forms.ListViewItem[] {
+            listViewItem1});
+            this.listView1.Location = new System.Drawing.Point(66, 29);
+            this.listView1.Name = "listView1";
+            this.listView1.Size = new System.Drawing.Size(468, 172);
+            this.listView1.TabIndex = 19;
+            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.listView1.View = System.Windows.Forms.View.Details;
             // 
-            // label4
+            // colTask
             // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(9, 95);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(40, 13);
-            this.label4.TabIndex = 13;
-            this.label4.Text = "Design";
+            this.colTask.Text = "Task";
             // 
-            // label5
+            // colType
             // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(9, 124);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(78, 13);
-            this.label5.TabIndex = 14;
-            this.label5.Text = "Implementation";
+            this.colType.DisplayIndex = 5;
+            this.colType.Text = "Task Type";
+            this.colType.Width = 69;
             // 
-            // label6
+            // colDesc
             // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(9, 151);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(42, 13);
-            this.label6.TabIndex = 15;
-            this.label6.Text = "Testing";
+            this.colDesc.DisplayIndex = 1;
+            this.colDesc.Text = "Description";
+            this.colDesc.Width = 71;
             // 
-            // label7
+            // colApp
             // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(10, 179);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(69, 13);
-            this.label7.TabIndex = 16;
-            this.label7.Text = "Management";
+            this.colApp.DisplayIndex = 2;
+            this.colApp.Text = "Applied Effort";
+            this.colApp.Width = 82;
             // 
-            // lbEstMisc
+            // colEst
             // 
-            this.lbEstMisc.AutoSize = true;
-            this.lbEstMisc.Location = new System.Drawing.Point(341, 31);
-            this.lbEstMisc.Name = "lbEstMisc";
-            this.lbEstMisc.Size = new System.Drawing.Size(19, 13);
-            this.lbEstMisc.TabIndex = 17;
-            this.lbEstMisc.Text = "10";
+            this.colEst.DisplayIndex = 3;
+            this.colEst.Text = "Estimated Effort";
+            this.colEst.Width = 94;
             // 
-            // lbEstAn
+            // colRem
             // 
-            this.lbEstAn.AutoSize = true;
-            this.lbEstAn.Location = new System.Drawing.Point(341, 63);
-            this.lbEstAn.Name = "lbEstAn";
-            this.lbEstAn.Size = new System.Drawing.Size(19, 13);
-            this.lbEstAn.TabIndex = 18;
-            this.lbEstAn.Text = "10";
-            // 
-            // lbEstImp
-            // 
-            this.lbEstImp.AutoSize = true;
-            this.lbEstImp.Location = new System.Drawing.Point(341, 122);
-            this.lbEstImp.Name = "lbEstImp";
-            this.lbEstImp.Size = new System.Drawing.Size(19, 13);
-            this.lbEstImp.TabIndex = 19;
-            this.lbEstImp.Text = "10";
-            // 
-            // lbEstDes
-            // 
-            this.lbEstDes.AutoSize = true;
-            this.lbEstDes.Location = new System.Drawing.Point(341, 93);
-            this.lbEstDes.Name = "lbEstDes";
-            this.lbEstDes.Size = new System.Drawing.Size(19, 13);
-            this.lbEstDes.TabIndex = 20;
-            this.lbEstDes.Text = "10";
-            // 
-            // lbEstTest
-            // 
-            this.lbEstTest.AutoSize = true;
-            this.lbEstTest.Location = new System.Drawing.Point(341, 149);
-            this.lbEstTest.Name = "lbEstTest";
-            this.lbEstTest.Size = new System.Drawing.Size(19, 13);
-            this.lbEstTest.TabIndex = 21;
-            this.lbEstTest.Text = "10";
-            // 
-            // lbEstMan
-            // 
-            this.lbEstMan.AutoSize = true;
-            this.lbEstMan.Location = new System.Drawing.Point(341, 177);
-            this.lbEstMan.Name = "lbEstMan";
-            this.lbEstMan.Size = new System.Drawing.Size(19, 13);
-            this.lbEstMan.TabIndex = 22;
-            this.lbEstMan.Text = "10";
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(229, 3);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(59, 13);
-            this.label8.TabIndex = 23;
-            this.label8.Text = "Total Effort";
+            this.colRem.DisplayIndex = 4;
+            this.colRem.Text = "Remaining Time";
+            this.colRem.Width = 91;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(115, 3);
+            this.label1.Location = new System.Drawing.Point(12, 29);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(61, 13);
-            this.label1.TabIndex = 30;
-            this.label1.Text = "Apply Effort";
+            this.label1.Size = new System.Drawing.Size(36, 13);
+            this.label1.TabIndex = 20;
+            this.label1.Text = "Tasks";
             // 
-            // lbManTotal
+            // btSelectTask
             // 
-            this.lbManTotal.AutoSize = true;
-            this.lbManTotal.Location = new System.Drawing.Point(244, 177);
-            this.lbManTotal.Name = "lbManTotal";
-            this.lbManTotal.Size = new System.Drawing.Size(19, 13);
-            this.lbManTotal.TabIndex = 36;
-            this.lbManTotal.Text = "10";
+            this.btSelectTask.Location = new System.Drawing.Point(248, 225);
+            this.btSelectTask.Name = "btSelectTask";
+            this.btSelectTask.Size = new System.Drawing.Size(75, 23);
+            this.btSelectTask.TabIndex = 21;
+            this.btSelectTask.Text = "Select";
+            this.btSelectTask.UseVisualStyleBackColor = true;
+            this.btSelectTask.Click += new System.EventHandler(this.btSelectTask_Click);
             // 
-            // lbTestTotal
+            // btClose
             // 
-            this.lbTestTotal.AutoSize = true;
-            this.lbTestTotal.Location = new System.Drawing.Point(244, 149);
-            this.lbTestTotal.Name = "lbTestTotal";
-            this.lbTestTotal.Size = new System.Drawing.Size(19, 13);
-            this.lbTestTotal.TabIndex = 35;
-            this.lbTestTotal.Text = "10";
+            this.btClose.Location = new System.Drawing.Point(329, 225);
+            this.btClose.Name = "btClose";
+            this.btClose.Size = new System.Drawing.Size(75, 23);
+            this.btClose.TabIndex = 22;
+            this.btClose.Text = "Cancel";
+            this.btClose.UseVisualStyleBackColor = true;
+            this.btClose.Click += new System.EventHandler(this.button2_Click);
             // 
-            // lbDesTotal
+            // btNewTask
             // 
-            this.lbDesTotal.AutoSize = true;
-            this.lbDesTotal.Location = new System.Drawing.Point(244, 93);
-            this.lbDesTotal.Name = "lbDesTotal";
-            this.lbDesTotal.Size = new System.Drawing.Size(19, 13);
-            this.lbDesTotal.TabIndex = 34;
-            this.lbDesTotal.Text = "10";
-            // 
-            // lbImpTotal
-            // 
-            this.lbImpTotal.AutoSize = true;
-            this.lbImpTotal.Location = new System.Drawing.Point(244, 122);
-            this.lbImpTotal.Name = "lbImpTotal";
-            this.lbImpTotal.Size = new System.Drawing.Size(19, 13);
-            this.lbImpTotal.TabIndex = 33;
-            this.lbImpTotal.Text = "10";
-            // 
-            // lbAnaTotal
-            // 
-            this.lbAnaTotal.AutoSize = true;
-            this.lbAnaTotal.Location = new System.Drawing.Point(244, 63);
-            this.lbAnaTotal.Name = "lbAnaTotal";
-            this.lbAnaTotal.Size = new System.Drawing.Size(19, 13);
-            this.lbAnaTotal.TabIndex = 32;
-            this.lbAnaTotal.Text = "10";
-            // 
-            // lbMiscTotal
-            // 
-            this.lbMiscTotal.AutoSize = true;
-            this.lbMiscTotal.Location = new System.Drawing.Point(244, 32);
-            this.lbMiscTotal.Name = "lbMiscTotal";
-            this.lbMiscTotal.Size = new System.Drawing.Size(19, 13);
-            this.lbMiscTotal.TabIndex = 31;
-            this.lbMiscTotal.Text = "10";
-            // 
-            // tbManEff
-            // 
-            this.tbManEff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tbManEff.Location = new System.Drawing.Point(118, 176);
-            this.tbManEff.Name = "tbManEff";
-            this.tbManEff.Size = new System.Drawing.Size(36, 20);
-            this.tbManEff.TabIndex = 59;
-            // 
-            // tbTestEff
-            // 
-            this.tbTestEff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tbTestEff.Location = new System.Drawing.Point(118, 147);
-            this.tbTestEff.Name = "tbTestEff";
-            this.tbTestEff.Size = new System.Drawing.Size(36, 20);
-            this.tbTestEff.TabIndex = 58;
-            // 
-            // tbDesEff
-            // 
-            this.tbDesEff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tbDesEff.Location = new System.Drawing.Point(118, 89);
-            this.tbDesEff.Name = "tbDesEff";
-            this.tbDesEff.Size = new System.Drawing.Size(36, 20);
-            this.tbDesEff.TabIndex = 57;
-            // 
-            // tbImpEff
-            // 
-            this.tbImpEff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tbImpEff.Location = new System.Drawing.Point(118, 119);
-            this.tbImpEff.Name = "tbImpEff";
-            this.tbImpEff.Size = new System.Drawing.Size(36, 20);
-            this.tbImpEff.TabIndex = 56;
-            // 
-            // tbAnaEff
-            // 
-            this.tbAnaEff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tbAnaEff.Location = new System.Drawing.Point(118, 60);
-            this.tbAnaEff.Name = "tbAnaEff";
-            this.tbAnaEff.Size = new System.Drawing.Size(36, 20);
-            this.tbAnaEff.TabIndex = 55;
-            // 
-            // tbMiscEff
-            // 
-            this.tbMiscEff.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.tbMiscEff.Location = new System.Drawing.Point(118, 32);
-            this.tbMiscEff.Name = "tbMiscEff";
-            this.tbMiscEff.Size = new System.Drawing.Size(36, 20);
-            this.tbMiscEff.TabIndex = 54;
+            this.btNewTask.Location = new System.Drawing.Point(169, 225);
+            this.btNewTask.Name = "btNewTask";
+            this.btNewTask.Size = new System.Drawing.Size(75, 23);
+            this.btNewTask.TabIndex = 23;
+            this.btNewTask.Text = "New";
+            this.btNewTask.UseVisualStyleBackColor = true;
+            this.btNewTask.Click += new System.EventHandler(this.button3_Click);
             // 
             // TaskUI
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(434, 287);
+            this.ClientSize = new System.Drawing.Size(557, 260);
+            this.Controls.Add(this.btNewTask);
+            this.Controls.Add(this.btClose);
+            this.Controls.Add(this.btSelectTask);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.listView1);
             this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.pnlRequirment);
+            this.Controls.Add(this.btUpdate);
             this.Name = "TaskUI";
             this.Text = "TaskUI";
-            this.pnlRequirment.ResumeLayout(false);
-            this.pnlRequirment.PerformLayout();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
         #endregion
 
-        private System.Windows.Forms.Button btUpdate;
-        private System.Windows.Forms.Panel pnlRequirment;
-        private System.Windows.Forms.Label c;
-        private System.Windows.Forms.Label lblDescription;
         private System.Windows.Forms.Button btnClose;
-        private System.Windows.Forms.Label lbEstMan;
-        private System.Windows.Forms.Label lbEstTest;
-        private System.Windows.Forms.Label lbEstDes;
-        private System.Windows.Forms.Label lbEstImp;
-        private System.Windows.Forms.Label lbEstAn;
-        private System.Windows.Forms.Label lbEstMisc;
-        private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label lbManTotal;
-        private System.Windows.Forms.Label lbTestTotal;
-        private System.Windows.Forms.Label lbDesTotal;
-        private System.Windows.Forms.Label lbImpTotal;
-        private System.Windows.Forms.Label lbAnaTotal;
-        private System.Windows.Forms.Label lbMiscTotal;
+        private System.Windows.Forms.Button btUpdate;
+        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ColumnHeader colTask;
+        private System.Windows.Forms.ColumnHeader colType;
+        private System.Windows.Forms.ColumnHeader colDesc;
+        private System.Windows.Forms.ColumnHeader colApp;
+        private System.Windows.Forms.ColumnHeader colEst;
+        private System.Windows.Forms.ColumnHeader colRem;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.TextBox tbManEff;
-        private System.Windows.Forms.TextBox tbTestEff;
-        private System.Windows.Forms.TextBox tbDesEff;
-        private System.Windows.Forms.TextBox tbImpEff;
-        private System.Windows.Forms.TextBox tbAnaEff;
-        private System.Windows.Forms.TextBox tbMiscEff;
+        private System.Windows.Forms.Button btSelectTask;
+        private System.Windows.Forms.Button btClose;
+        private System.Windows.Forms.Button btNewTask;
     }
 }

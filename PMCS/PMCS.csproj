@@ -53,6 +53,12 @@
     <Compile Include="AddReq.Designer.cs">
       <DependentUpon>AddReq.cs</DependentUpon>
     </Compile>
+    <Compile Include="AddTask.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddTask.Designer.cs">
+      <DependentUpon>AddTask.cs</DependentUpon>
+    </Compile>
     <Compile Include="MainUI.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -70,8 +76,17 @@
     <Compile Include="TaskUI.Designer.cs">
       <DependentUpon>TaskUI.cs</DependentUpon>
     </Compile>
+    <Compile Include="TaskView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaskView.Designer.cs">
+      <DependentUpon>TaskView.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="AddReq.resx">
       <DependentUpon>AddReq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AddTask.resx">
+      <DependentUpon>AddTask.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MainUI.resx">
       <DependentUpon>MainUI.cs</DependentUpon>
@@ -91,6 +106,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="TaskUI.resx">
       <DependentUpon>TaskUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskView.resx">
+      <DependentUpon>TaskView.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

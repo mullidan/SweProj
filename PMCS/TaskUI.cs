@@ -26,5 +26,22 @@ namespace PMCS
         {
             //Add magic here
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            AddTask addTask = new AddTask();
+            addTask.ShowDialog();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void btSelectTask_Click(object sender, EventArgs e)
+        {
+            TaskView tview = new TaskView();
+            tview.ShowDialog();
+        }
     }
 }
