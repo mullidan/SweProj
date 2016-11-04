@@ -47,13 +47,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="AddReq.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AddReq.Designer.cs">
+      <DependentUpon>AddReq.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainUI.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="ReqUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReqUI.Designer.cs">
+      <DependentUpon>ReqUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TaskUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TaskUI.Designer.cs">
+      <DependentUpon>TaskUI.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="AddReq.resx">
+      <DependentUpon>AddReq.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainUI.resx">
+      <DependentUpon>MainUI.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -65,6 +86,12 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="ReqUI.resx">
+      <DependentUpon>ReqUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TaskUI.resx">
+      <DependentUpon>TaskUI.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -77,6 +104,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProjectModels\ProjectModels.csproj">
+      <Project>{0b0a932c-e26a-4a52-994c-9897daf28021}</Project>
+      <Name>ProjectModels</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ProjectSchema.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
