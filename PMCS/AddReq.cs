@@ -12,6 +12,7 @@ namespace PMCS
 {
     public partial class AddReq : Form
     {
+        String type, description, effortMisc, effortAnalysis, effortDesign, effortImpl, effortTest, effortManage;
         public AddReq()
         {
             InitializeComponent();
@@ -25,6 +26,14 @@ namespace PMCS
         private void btSave_Click(object sender, EventArgs e)
         {
             //The magic happens here
+            type = drpTypeBox.Text;
+            description = tbDescription.Text;
+            effortMisc = tbMiscEff.Text;
+            effortAnalysis = tbAnaEff.Text;
+            effortDesign = tbDesEff.Text;
+            effortImpl = tbImpEff.Text;
+            effortTest = tbTestEff.Text;
+            effortManage = tbManEff.Text;
         }
     }
 }

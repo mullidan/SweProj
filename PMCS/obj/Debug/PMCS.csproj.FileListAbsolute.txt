@@ -25,3 +25,15 @@ C:\Users\dan\Source\Repos\SweProj\PMCS\obj\Debug\PMCS.csprojResolveAssemblyRefer
 C:\Users\dan\Source\Repos\SweProj\PMCS\obj\Debug\PMCS.Form1.resources
 C:\Users\dan\Source\Repos\SweProj\PMCS\obj\Debug\PMCS.Properties.Resources.resources
 C:\Users\dan\Source\Repos\SweProj\PMCS\obj\Debug\PMCS.csproj.GenerateResource.Cache
+C:\Users\Jared\Documents\GitHub\SweProj\PMCS\bin\Debug\PMCS.exe.config
+C:\Users\Jared\Documents\GitHub\SweProj\PMCS\obj\Debug\PMCS.exe
+C:\Users\Jared\Documents\GitHub\SweProj\PMCS\obj\Debug\PMCS.pdb
+C:\Users\Jared\Documents\GitHub\SweProj\PMCS\obj\Debug\PMCS.csprojResolveAssemblyReference.cache
+C:\Users\Jared\Documents\GitHub\SweProj\PMCS\obj\Debug\PMCS.AddReq.resources
+C:\Users\Jared\Documents\GitHub\SweProj\PMCS\obj\Debug\PMCS.AddTask.resources
+C:\Users\Jared\Documents\GitHub\SweProj\PMCS\obj\Debug\PMCS.MainUI.resources
+C:\Users\Jared\Documents\GitHub\SweProj\PMCS\obj\Debug\PMCS.Properties.Resources.resources
+C:\Users\Jared\Documents\GitHub\SweProj\PMCS\obj\Debug\PMCS.ReqUI.resources
+C:\Users\Jared\Documents\GitHub\SweProj\PMCS\obj\Debug\PMCS.TaskUI.resources
+C:\Users\Jared\Documents\GitHub\SweProj\PMCS\obj\Debug\PMCS.TaskView.resources
+C:\Users\Jared\Documents\GitHub\SweProj\PMCS\obj\Debug\PMCS.csproj.GenerateResource.Cache

@@ -12,6 +12,9 @@ namespace PMCS
 {
     public partial class AddTask : Form
     {
+        String taskName, discription, parentRequirement, taskType, estimatedEffort, appliedEffort;
+        DateTime dueDate;
+         
         public AddTask()
         {
             InitializeComponent();
@@ -25,6 +28,13 @@ namespace PMCS
         private void button2_Click(object sender, EventArgs e)
         {
             //insert magic here
+            taskName = textBox1.Text;
+            discription = textBox2.Text;
+            parentRequirement = comboBox2.Text;
+            taskType = comboBox1.Text;
+            dueDate = dateTimePicker1.Value.Date;
+            estimatedEffort = textBox3.Text;
+            appliedEffort = textBox4.Text;
         }
     }
 }
